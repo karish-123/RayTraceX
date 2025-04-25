@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		9D791FB62DAEAA6A002333D9 /* RayTracer.metal in Sources */ = {isa = PBXBuildFile; fileRef = 9D791FB52DAEAA6A002333D9 /* RayTracer.metal */; };
+		9D791FB82DAEAB77002333D9 /* MetalRayTracer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D791FB72DAEAB77002333D9 /* MetalRayTracer.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		9D791F992DAEA9FE002333D9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +32,8 @@
 		9D791F8A2DAEA9FD002333D9 /* ray_tracer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ray_tracer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D791F982DAEA9FE002333D9 /* ray_tracerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ray_tracerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D791FA22DAEA9FE002333D9 /* ray_tracerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ray_tracerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D791FB52DAEAA6A002333D9 /* RayTracer.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = RayTracer.metal; sourceTree = "<group>"; };
+		9D791FB72DAEAB77002333D9 /* MetalRayTracer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalRayTracer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +82,8 @@
 		9D791F812DAEA9FD002333D9 = {
 			isa = PBXGroup;
 			children = (
+				9D791FB52DAEAA6A002333D9 /* RayTracer.metal */,
+				9D791FB72DAEAB77002333D9 /* MetalRayTracer.swift */,
 				9D791F8C2DAEA9FD002333D9 /* ray_tracer */,
 				9D791F9B2DAEA9FE002333D9 /* ray_tracerTests */,
 				9D791FA52DAEA9FE002333D9 /* ray_tracerUITests */,
@@ -236,6 +245,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D791FB62DAEAA6A002333D9 /* RayTracer.metal in Sources */,
+				9D791FB82DAEAB77002333D9 /* MetalRayTracer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
